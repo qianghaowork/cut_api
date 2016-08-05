@@ -5,9 +5,13 @@ This is a simple web API to receive the requests from client and process the ima
 Environment
 
 Python3.5.2 with OpenCV 3.0.0 on OSX 2.6 GHz Intel Core i7 and 16GB DDR3
-Virtualenv install tornado, pydrive etc. 
+
+Virtualenv install tornado, pydrive packages etc. 
+
 There are 97 images on shared folder.
+
 Pydrive doesn't support python3 if installed through pip and auth.py needs to updated. 
+
 Some functions from OpenCV encountered problems with Threadpool multithread execution. Use substitution functions or lock. 
    
 How to run it? 
@@ -22,6 +26,7 @@ The extracted images are found at /out. Downloaded images are at /images. myapp.
 Performance analyze:
 
 Implement multithread solution to assign tasks to multiple threads. Compare the average processing time at different threads 2, 4, 6, 8, 10 and 20.     
+
 Thread  Average processing time (ms)
 2       1300.6      
 4       1227.13
