@@ -28,11 +28,17 @@ Performance analyze:
 Implement multithread solution to assign tasks to multiple threads. Compare the average processing time at different threads 2, 4, 6, 8, 10 and 20.     
 
 Thread  Average processing time (ms)
-2       1300.6      
+
+2       1300.6   
+
 4       1227.13
+
 6       1234.58 
+
 8       1224.96
+
 10      1224.46
+
 20      1240.02
 
 Conclusion:
