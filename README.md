@@ -16,7 +16,7 @@ Pydrive doesn't support python3 if installed through pip and auth.py needs to up
 
 Some functions from OpenCV encountered problems with Threadpool multithread execution. Use substitution functions or lock. 
    
-##How to run it? 
+##Usage
 
 At server, run "python3 server.py"
 At client, send command curl -X POST -d '{"number_thread":4,"path":"https://drive.google.com/drive/folders/0B96ROFsiJB0pVjBrNFdsUHlXenc"}' -v http://localhost:8888/cut
@@ -25,7 +25,7 @@ response will send back to client to denote number of processed images, total pr
 
 The extracted images are found at /out. Downloaded images are at /images. myapp.log saves execution information 
 
-##Performance analyze:
+##Performance:
 
 Implement multithread solution to assign tasks to multiple threads. Compare the average processing time at different threads 2, 4, 6, 8, 10 and 20.     
 
