@@ -1,4 +1,4 @@
-# Clothes Extraction Web App
+# Clothes Extraction Web API
 
 Clothes extraction with torando, Google drive API and openCV
  
